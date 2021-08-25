@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  text-decoration: none;
+}
+
+header {
+  background-image: linear-gradient(#cf9bff49 50%, rgba(255, 255, 255, 0));
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  left: 0;
+  flex-wrap: wrap;
+  font-family: "Bad Script", cursive;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+nav ul li {
+  margin-right: 10px;
+}
+
+#busqueda {
+  width: 100px;
+}
+
+#margin {
+  margin-right: 20%;
+}
+
+footer {
+  background-image: linear-gradient(to top, #cf9bff49 65%, rgba(128, 128, 128, 0));
+  clear: both;
+  font-size: large;
+  padding-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Bad Script", cursive;
+  margin-top: 2%;
+}
+
+.texto {
+  color: black;
+}
+
+#descripcion {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.redirect {
+  border: rgba(207, 155, 255, 0.377) inset;
+  height: auto;
+  width: auto;
+  text-decoration: none;
+  color: #2e2828;
+}
+
+#remeinicio {
+  text-decoration: none;
+  color: #cf9bff;
+}
+
+.logo {
+  height: 50%;
+  width: 50%;
+  margin-left: 0px;
+}
+
+.header__h1 {
+  text-align: center;
+  color: #450680;
+  font-size: 600%;
+  font-family: "Zen Tokyo Zoo", cursive;
+}
+
+.archivo {
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #cf9bff;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Bad Script", cursive;
+  font-size: 50px;
+  margin-top: 5px;
+  -webkit-animation-name: hdos;
+  animation-name: hdos;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+@-webkit-keyframes hdos {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes hdos {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#meraky {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: "Bad Script", cursive;
+  font-size: 20px;
+  background: url("imagenesyvideos/screen-3.jpg");
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 7px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: rgba(176, 125, 224, 0.87);
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(176, 125, 224, 0.87);
+  border-radius: 5px;
+}
+
+table {
+  border-radius: 10px;
+  border-color: rgba(103, 2, 197, 0.377);
+  display: block;
+  font-family: "Bad Script", cursive;
+}
+
+#numero {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+#articulo {
+  font-size: 200%;
+  font-family: "Bad Script", cursive;
+}
+
+#logored {
+  height: 50px;
+  width: 50px;
+}
+
+section {
+  display: grid;
+  grid-template-areas: "1 2 3" "4 5 6";
+  padding: 0px;
+  grid-column-gap: 2%;
+  grid-row-gap: 4%;
+  margin-left: 9%;
+}
+
+form {
+  font-family: "Bad Script", cursive;
+}
+
+#pd {
+  border: rgba(137, 43, 226, 0.192) solid;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(137, 43, 226, 0.192);
+}
+
+#textoimg {
+  margin-top: 150px;
+  font-family: "Bad Script", cursive;
+}
+
+#dtabla {
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.body__h2--color {
+  color: #cf9bff;
+}
+
+.div__p--color {
+  color: #cf9bff;
+}
+
+.tr__th--color {
+  color: #cf9bff;
+}
+
+.clase {
+  margin-top: 2%;
+}
+
+span {
+  display: block;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.slider {
+  display: flex;
+  max-width: 520px;
+  height: 100%;
+  width: 400%;
+  overflow-y: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #cf9bff;
+}
+.slider img {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  align-content: center;
+}
+.slider video {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  align-content: center;
+}
+
+.carousel-control-prev-icon {
+  background: #cf9bff;
+  border-radius: 100%;
+}
+
+.carousel-control-next-icon {
+  background: #cf9bff;
+  border-radius: 100%;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  color: #cf9bff;
+}
+
+.carousel-indicators .active {
+  background-color: #cf9bff;
+}
+
+#reme-1 {
+  grid-area: "1";
+  height: 100%;
+  width: 250px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.473);
+  text-align: center;
+}
+
+#reme-2 {
+  grid-area: "2";
+  height: 100%;
+  width: 250px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.473);
+  text-align: center;
+}
+
+#reme-3 {
+  grid-area: "3";
+  height: 100%;
+  width: 250px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.473);
+  text-align: center;
+}
+
+#reme-4 {
+  grid-area: "4";
+  height: 100%;
+  width: 250px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.473);
+  text-align: center;
+}
+
+#reme-5 {
+  grid-area: "5";
+  height: 100%;
+  width: 250px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.473);
+  text-align: center;
+}
+
+#reme-6 {
+  grid-area: "6";
+  height: 100%;
+  width: 250px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.473);
+  text-align: center;
+}
+
+#reme-1:hover {
+  transform: scale(1.2);
+  transition: transform 1s;
+}
+
+#reme-2:hover {
+  transform: scale(1.2);
+  transition: transform 1s;
+}
+
+#reme-3:hover {
+  transform: scale(1.2);
+  transition: transform 1s;
+}
+
+#reme-4:hover {
+  transform: scale(1.2);
+  transition: transform 1s;
+}
+
+#reme-5:hover {
+  transform: scale(1.2);
+  transition: transform 1s;
+}
+
+#reme-6:hover {
+  transform: scale(1.2);
+  transition: transform 1s;
+}
+
+#remes {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.productos {
+  height: 250px;
+  width: 250px;
+}
+
+ul {
+  list-style: none;
+  font-size: 0;
+  text-decoration: none;
+}
+ul li {
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: #2e2828;
+}
+ul li a:hover {
+  color: black;
+  font-weight: 7000;
+}
+ul li a:hover ul {
+  display: block;
+  background-color: #cf9bff;
+  border: 2px solid rgba(103, 2, 197, 0.377);
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 65px;
+  width: auto;
+  z-index: 1;
+}
+ul ul {
+  position: absolute;
+  display: none;
+}
+ul ul li {
+  display: block;
+  margin-left: 0%;
+}
+
+ul li:hover ul {
+  display: block;
+  background-color: #e7d0fcde;
+  border: 2px solid rgba(103, 2, 197, 0.377);
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 65px;
+  width: auto;
+  z-index: 1;
+}/*# sourceMappingURL=estilos.css.map */
