@@ -1,6 +1,6 @@
-$color1: #cf9bff;
+$color1: rgb(207, 155, 255);
 $ancho: 250px;
-$basecolor: #eeeeee;
+$basecolor: rgb(238, 238, 238);
 $color:#cf9bff49;
 
 * {
@@ -65,7 +65,7 @@ $color:#cf9bff49;
     height: auto;
     width: auto;
     text-decoration: none;
-    color: #2e2828;
+    color: rgb(46, 40, 40);
   }
   
   #remeinicio {
@@ -81,7 +81,7 @@ $color:#cf9bff49;
   
   .header__h1{
     text-align: center;
-    color: #450680;
+    color: rgb(69, 6, 128);
     font-size: 600%;
     font-family: "Zen Tokyo Zoo", cursive;
   }
@@ -131,7 +131,7 @@ $color:#cf9bff49;
   body {
     font-family: "Bad Script", cursive;
     font-size: 20px;
-    background:url("imagenesyvideos/screen-3.jpg");
+    background:url("ImagenesyVideos/screen-3.jpg");
   }
 
   h4 {
@@ -201,6 +201,7 @@ $color:#cf9bff49;
   #textoimg {
     margin-top: 150px;
     font-family: "Bad Script", cursive;
+    text-align: justify;
   }
   
   #dtabla {
