@@ -3,25 +3,21 @@
   text-decoration: none;
 }
 
-header {
-  background-image: linear-gradient(#cf9bff49 50%, rgba(255, 255, 255, 0));
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  left: 0;
-  flex-wrap: wrap;
-  font-family: "Bad Script", cursive;
+.class2 {
+  text-decoration: underline;
+  text-shadow: 0 0 10px rgba(137, 43, 226, 0.384);
 }
 
-nav ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-around;
+.class1 {
+  background-image: linear-gradient(#cf9bff49 50%, rgba(255, 255, 255, 0));
 }
-nav ul li {
-  margin-right: 10px;
+
+header {
+  background-image: linear-gradient(#cf9bff49 50%, rgba(255, 255, 255, 0));
+  width: 100%;
+  flex-wrap: wrap;
+  font-family: "Righteous", cursive;
+  color: rgba(0, 0, 0, 0.541);
 }
 
 #busqueda {
@@ -40,7 +36,8 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: "Bad Script", cursive;
+  font-family: "Righteous", cursive;
+  color: rgba(0, 0, 0, 0.541);
   margin-top: 2%;
 }
 
@@ -63,21 +60,18 @@ footer {
 }
 
 #remeinicio {
-  text-decoration: none;
-  color: #cf9bff;
+  color: rgba(155, 66, 238, 0.596);
 }
 
 .logo {
-  height: 50%;
-  width: 50%;
-  margin-left: 0px;
+  height: 10vh;
+  width: 10vh;
 }
 
-.header__h1 {
-  text-align: center;
+h1 {
   color: #450680;
-  font-size: 600%;
   font-family: "Zen Tokyo Zoo", cursive;
+  margin-left: 30px;
 }
 
 .archivo {
@@ -89,8 +83,8 @@ footer {
 
 h2 {
   text-align: center;
-  font-family: "Bad Script", cursive;
-  font-size: 50px;
+  font-family: "Zen Tokyo Zoo", cursive;
+  font-size: 50px !important;
   margin-top: 5px;
   -webkit-animation-name: hdos;
   animation-name: hdos;
@@ -122,9 +116,10 @@ h2 {
 }
 
 body {
-  font-family: "Bad Script", cursive;
+  background-color: #9e9d9d13 !important;
+  font-family: "Righteous", cursive;
+  color: rgba(0, 0, 0, 0.541);
   font-size: 20px;
-  background: url("ImagenesyVideos/screen-3.jpg");
 }
 
 h4 {
@@ -153,7 +148,8 @@ table {
   border-radius: 10px;
   border-color: rgba(103, 2, 197, 0.377);
   display: block;
-  font-family: "Bad Script", cursive;
+  font-family: "Righteous", cursive;
+  color: rgba(0, 0, 0, 0.541);
 }
 
 #numero {
@@ -163,7 +159,8 @@ table {
 
 #articulo {
   font-size: 200%;
-  font-family: "Bad Script", cursive;
+  font-family: "Righteous", cursive;
+  color: rgba(0, 0, 0, 0.541);
 }
 
 #logored {
@@ -181,7 +178,8 @@ section {
 }
 
 form {
-  font-family: "Bad Script", cursive;
+  font-family: "Righteous", cursive;
+  color: rgba(0, 0, 0, 0.541);
 }
 
 #pd {
@@ -191,9 +189,11 @@ form {
 }
 
 #textoimg {
-  margin-top: 150px;
-  font-family: "Bad Script", cursive;
+  font-family: "Righteous", cursive;
+  color: rgba(0, 0, 0, 0.541);
   text-align: justify;
+  vertical-align: middle;
+  display: table-cell;
 }
 
 #dtabla {
@@ -202,7 +202,7 @@ form {
 }
 
 .body__h2--color {
-  color: #cf9bff;
+  color: #450680;
 }
 
 .div__p--color {
@@ -221,6 +221,11 @@ span {
   display: block;
 }
 
+.inicio {
+  min-width: 500px;
+  min-height: 500px;
+}
+
 .carousel-inner img {
   width: 100%;
   height: 100%;
@@ -232,8 +237,8 @@ span {
   height: 100%;
   width: 400%;
   overflow-y: hidden;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #cf9bff;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #cf9bff;
 }
 .slider img {
   width: 100%;
@@ -248,82 +253,19 @@ span {
   align-content: center;
 }
 
-.carousel-control-prev-icon {
-  background: #cf9bff;
-  border-radius: 100%;
-}
-
-.carousel-control-next-icon {
-  background: #cf9bff;
-  border-radius: 100%;
-}
-
-.carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  color: #cf9bff;
-}
-
-.carousel-indicators .active {
-  background-color: #cf9bff;
-}
-
 #reme-1 {
-  grid-area: "1";
-  height: 100%;
-  width: 250px;
-  background-color: #eeeeee;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(128, 128, 128, 0.473);
   text-align: center;
 }
 
 #reme-2 {
-  grid-area: "2";
-  height: 100%;
-  width: 250px;
-  background-color: #eeeeee;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(128, 128, 128, 0.473);
   text-align: center;
 }
 
 #reme-3 {
-  grid-area: "3";
-  height: 100%;
-  width: 250px;
-  background-color: #eeeeee;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(128, 128, 128, 0.473);
-  text-align: center;
-}
-
-#reme-4 {
-  grid-area: "4";
-  height: 100%;
-  width: 250px;
-  background-color: #eeeeee;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(128, 128, 128, 0.473);
-  text-align: center;
-}
-
-#reme-5 {
-  grid-area: "5";
-  height: 100%;
-  width: 250px;
-  background-color: #eeeeee;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(128, 128, 128, 0.473);
-  text-align: center;
-}
-
-#reme-6 {
-  grid-area: "6";
-  height: 100%;
-  width: 250px;
-  background-color: #eeeeee;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(128, 128, 128, 0.473);
   text-align: center;
@@ -344,76 +286,13 @@ span {
   transition: transform 1s;
 }
 
-#reme-4:hover {
-  transform: scale(1.2);
-  transition: transform 1s;
-}
-
-#reme-5:hover {
-  transform: scale(1.2);
-  transition: transform 1s;
-}
-
-#reme-6:hover {
-  transform: scale(1.2);
-  transition: transform 1s;
-}
-
 #remes {
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Righteous", cursive;
   color: black;
 }
 
 .productos {
-  height: 250px;
-  width: 250px;
-}
-
-ul {
-  list-style: none;
-  font-size: 0;
-  text-decoration: none;
-}
-ul li {
-  display: inline-block;
-  position: relative;
-  font-size: 20px;
-}
-ul li a {
-  text-decoration: none;
-  color: #2e2828;
-}
-ul li a:hover {
-  color: black;
-  font-weight: 7000;
-}
-ul li a:hover ul {
-  display: block;
-  background-color: #cf9bff;
-  border: 2px solid rgba(103, 2, 197, 0.377);
-  padding-left: 0px;
-  padding-right: 0px;
-  height: 65px;
-  width: auto;
-  z-index: 1;
-}
-ul ul {
-  position: absolute;
-  display: none;
-}
-ul ul li {
-  display: block;
-  margin-left: 0%;
-}
-
-ul li:hover ul {
-  display: block;
-  background-color: #e7d0fcde;
-  border: 2px solid rgba(103, 2, 197, 0.377);
-  padding-left: 0px;
-  padding-right: 0px;
-  height: 65px;
-  width: auto;
-  z-index: 1;
+  height: 40vh;
+  width: 40vh;
 }/*# sourceMappingURL=estilos.css.map */

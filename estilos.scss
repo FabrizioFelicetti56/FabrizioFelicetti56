@@ -2,34 +2,30 @@ $color1: rgb(207, 155, 255);
 $ancho: 250px;
 $basecolor: rgb(238, 238, 238);
 $color:#cf9bff49;
+$color2: rgba(0, 0, 0, 0.541);
 
 * {
     margin: 0;
     text-decoration: none;
   }
+
+  .class2{
+    text-decoration: underline;
+    text-shadow: 0 0 10px rgba(137, 43, 226, 0.384);
+  }
+
+  .class1{
+    background-image: linear-gradient($color 50%, rgba(255, 255, 255, 0));
+  }
   
   header {
     background-image: linear-gradient($color 50%, rgba(255, 255, 255, 0));
-    display: flex;
-    flex-direction: row;
     width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    left: 0;
     flex-wrap: wrap;
-    font-family: "Bad Script", cursive;
+    font-family: 'Righteous', cursive;
+    color: $color2;
   }
   
-  nav ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    
-    li {
-      margin-right: 10px;
-    }
-  }
-
   #busqueda {
     width: 100px;
   }
@@ -46,7 +42,8 @@ $color:#cf9bff49;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: "Bad Script", cursive;
+    font-family: 'Righteous', cursive;
+    color: $color2;
     margin-top: 2%;
   }
   
@@ -67,23 +64,20 @@ $color:#cf9bff49;
     text-decoration: none;
     color: rgb(46, 40, 40);
   }
-  
+
   #remeinicio {
-    text-decoration: none;
-    color: $color1;
+    color: rgba(155, 66, 238, 0.596);
   }
   
   .logo {
-    height: 50%;
-    width: 50%;
-    margin-left: 0px;
+    height: 10vh;
+    width: 10vh;
   }
   
-  .header__h1{
-    text-align: center;
+  h1{
     color: rgb(69, 6, 128);
-    font-size: 600%;
     font-family: "Zen Tokyo Zoo", cursive;
+    margin-left: 30px;
   }
   
   .archivo {
@@ -95,8 +89,8 @@ $color:#cf9bff49;
   
   h2 {
     text-align: center;
-    font-family: "Bad Script", cursive;
-    font-size: 50px;
+    font-family: "Zen Tokyo Zoo", cursive;
+    font-size: 50px !important;
     margin-top: 5px;
     -webkit-animation-name: hdos;
             animation-name: hdos;
@@ -128,10 +122,11 @@ $color:#cf9bff49;
     color: black;
   }
   
-  body {
-    font-family: "Bad Script", cursive;
+  body{
+    background-color: #9e9d9d13 !important;
+    font-family: 'Righteous', cursive;
+    color: $color2;
     font-size: 20px;
-    background:url("ImagenesyVideos/screen-3.jpg");
   }
 
   h4 {
@@ -160,7 +155,8 @@ $color:#cf9bff49;
     border-radius: 10px;
     border-color: rgba(103, 2, 197, 0.377);
     display: block;
-    font-family: "Bad Script", cursive;
+    font-family: 'Righteous', cursive;
+    color: $color2;
   }
   
   #numero {
@@ -170,7 +166,8 @@ $color:#cf9bff49;
   
   #articulo {
     font-size: 200%;
-    font-family: "Bad Script", cursive;
+    font-family: 'Righteous', cursive;
+    color: $color2;
   }
   
   #logored {
@@ -189,7 +186,8 @@ $color:#cf9bff49;
   }
   
   form {
-    font-family: "Bad Script", cursive;
+    font-family: 'Righteous', cursive;
+    color: $color2;
   }
   
   #pd {
@@ -199,9 +197,11 @@ $color:#cf9bff49;
   }
   
   #textoimg {
-    margin-top: 150px;
-    font-family: "Bad Script", cursive;
+    font-family: 'Righteous', cursive;
+    color: $color2;
     text-align: justify;
+    vertical-align: middle;
+    display: table-cell;
   }
   
   #dtabla {
@@ -210,7 +210,7 @@ $color:#cf9bff49;
   }
 
   .body__h2--color{
-      color: $color1;
+      color: rgb(69, 6, 128);
   }
 
   .div__p--color{
@@ -227,6 +227,11 @@ $color:#cf9bff49;
 
   span{
     display: block
+  }
+
+  .inicio{
+    min-width: 500px;
+    min-height: 500px;
   }
   @import "_slider";
   @import "_remes";
